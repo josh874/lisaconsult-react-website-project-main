@@ -1,0 +1,68 @@
+.service-page-container {
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1rem 2rem 2rem 3rem;
+  background-color: #f8f8ff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1px;
+  position: relative;
+}
+
+.service-title {
+  text-align: center;
+  font-size: 3rem;
+  color: green;
+}
+
+.service-paragraph {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.service-unordered-list {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  list-style-type: circle;
+  margin-left: 3rem;
+  color: blue;
+}
+
+.service-form {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.service-select-title {
+  margin-top: 2rem;
+}
+
+.service-form .service-form-select {
+  font-size: 1.5rem;
+  padding: 0.4rem;
+}
+
+.service-form-select {
+  border-radius: 0.4rem 0 0 0.4rem;
+  background-color:#e6e6fa;
+  cursor: pointer;
+}
+
+.service-btn {
+  font-size: 1.5rem;
+  background-color: #f0ffff;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+}
+
+.service-btn:hover {
+  background-color: rgb(145, 247, 254);
+  transition: 0.5s;
+}
+
+.service-image img {
+  position: absolute;
+  top: 9rem;
+  right: 8rem;
+  border-radius: 1rem;
+}
